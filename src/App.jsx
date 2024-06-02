@@ -189,7 +189,7 @@ function App() {
 	const getWeather = async (lat, lng) => {
 		try {
 			const response = await axios.get(
-				`http://localhost:3001/api/weather?lat=${lat}&lng=${lng}`
+				`https://journeygenie-backend.onrender.com/api/weather?lat=${lat}&lng=${lng}`
 			);
 			const data = response.data.data[0];
 			return {
