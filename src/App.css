@@ -1,0 +1,130 @@
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f4f4f4;
+}
+
+#map {
+	height: 80vh;
+	width: 100%;
+}
+
+#legend {
+	background: white;
+	padding: 10px;
+	margin: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#controls {
+	margin-bottom: 10px;
+	width: 100%;
+}
+
+#directions-result {
+	margin-top: 10px;
+	font-size: 0.9em;
+}
+
+input[type="text"],
+button {
+	padding: 10px;
+	margin: 5px 0;
+	border-radius: 5px;
+}
+
+button {
+	background-color: #4caf50;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#date-search {
+	padding: 10px;
+	margin: 5px 0;
+}
+
+#traffic-condition {
+	/* margin: 10px; */
+	font-size: 1em;
+	font-weight: bold;
+}
+
+.infoContainer {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	background: white;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	z-index: 1;
+}
+
+.mainClass {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.chat {
+	width: 500px;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+}
+
+.conversations {
+	width: 95.5%;
+	height: 340px;
+	overflow-y: scroll;
+	padding: 10px;
+	border: 1px solid black;
+	border-radius: 5px;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	justify-content: space-between;
+}
+
+#directions-form {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 10px;
+}
+.chatInput {
+	flex: 1;
+}
+.chatin {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+}
+
+#heading {
+	font-size: 24px;
+	font-weight: 600;
+}
+p {
+	margin: 0;
+	padding: 0;
+}
+.appheader {
+	margin-bottom: 15px;
+	padding: 0px;
+}
+
+.geminiResponse {
+	margin-top: 10px;
+	padding: 5px;
+}
